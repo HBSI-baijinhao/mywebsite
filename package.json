@@ -3,13 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "compression-webpack-plugin": "^7.1.1",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "postcss-px2rem-exclude": "^0.0.6",
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.0",
+    "vue-router": "^3.4.9",
+    "vue-skeleton-webpack-plugin": "^1.2.2",
+    "vuetify": "^2.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
