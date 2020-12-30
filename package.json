@@ -11,6 +11,7 @@
     "axios": "^0.21.1",
     "compression-webpack-plugin": "^7.1.1",
     "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
     "postcss-px2rem-exclude": "^0.0.6",
     "sass-loader": "^10.1.0",
     "vue": "^2.6.11",
