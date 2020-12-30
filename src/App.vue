@@ -1,24 +1,22 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <v-app>
+      <router-view></router-view>
+    </v-app>
   </div>
 </template>
 <script>
 export default {
-  data(){
-    return{
-    }
+  data() {
+    return {};
   },
-  name: 'app',
-  components: {
-  },
-  methods:{
-
-  }
-}
+  name: "app",
+  components: {},
+  methods: {},
+};
 </script>
 <style lang="scss" scoped>
-.testclass{
+.testclass {
   color: darkblue;
 }
 </style>
